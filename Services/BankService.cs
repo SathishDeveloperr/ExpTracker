@@ -5,7 +5,7 @@ using MongoDB.Driver;
 namespace Expense_Tracker_API.Services
 {
     public class BankService
-    {
+    { 
         private readonly IMongoCollection<Bank> _bankCollection;
 
         public BankService(IOptions<MongoDbSettings> settings)
